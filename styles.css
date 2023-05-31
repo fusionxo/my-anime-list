@@ -1,0 +1,120 @@
+body {
+  background: radial-gradient(circle at top center, #292f38, #000);
+  color: #fff;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  overflow-y: auto;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 50px;
+  font-size: 36px;
+  animation: moveIn 1s ease-out;
+  transform-origin: left center;
+  letter-spacing: 2px;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin-top: 30px;
+  overflow-y: auto;
+}
+
+li {
+  padding: 10px 20px;
+  font-size: 18px;
+  border-bottom: 1px solid #333;
+  display: flex;
+  align-items: center;
+  position: relative;
+  animation: moveIn 1s ease-out;
+  transform-origin: left center;
+  cursor: pointer;
+}
+
+@keyframes moveIn {
+  0% {
+    opacity: 0;
+    transform: translateX(-100px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+.number {
+  color: #ff6d6d;
+  margin-right: 10px;
+  font-size: 24px;
+  font-weight: bold;
+  animation: fadeIn 1s ease-out;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+li:hover {
+  background-color: #333;
+}
+
+.cursor-dot {
+  position: fixed;
+  width: 12px;
+  height: 12px;
+  background-color: #00ff00;
+  border-radius: 50%;
+  pointer-events: none;
+  transform: translate(-50%, -50%);
+  z-index: 9999;
+}
+
+.cursor-dot-clicked {
+  background-color: #83f3fe;
+  /* will add additional styles or effects for the clicked state */
+}
+
+.cursor-dot-hover {
+  background-color: rgb(255, 247, 0);
+}
+
+
+
+.anime-info {
+  display: none;
+}
+
+.anime-info.show-info {
+  display: inline-block;
+  cursor: pointer;
+  color: #fff;
+  background-color: rgba(70, 70, 70, 0.5);
+  padding: 3px 6px;
+  border-radius: 4px;
+  margin-left: 10px;
+}
+
+.anime-info.show-info:hover {
+  background-color: rgba(70, 70, 70, 0.5);
+}
+
+
+
+
+@media screen and (max-width: 800px) {
+  h1 {
+    font-size: 28px;
+  }
+
+  li {
+    font-size: 16px;
+  }
+}

@@ -79,7 +79,29 @@ const animeList = [
   "Call of the Night",
   "Death March to the Parallel World Rhapsody",
   "The Misfit of Demon King Academy",
-  "Didn't I Say to Make My Abilities Average in the Next Life?!"
+  "Didn't I Say to Make My Abilities Average in the Next Life?!",
+  "How Not to Summon a Demon Lord",
+  "Mashle: Magic and Muscles",
+  "My Isekai Life: I Gained a Second Character Class and Became the Strongest Sage in the World",
+  "In Another World With My Smartphone",
+  "The Aristocrat's Otherworldly Adventure: Serving Gods Who Go Too Far",
+  "Overlord",
+  "Charlotte",
+  "Date A Live",
+  "Date A Live II",
+  "Date A Live III",
+  "Date A Live IV",
+  "Lycoris Recoil",
+  "Engage Kiss",
+  "Shikimori's Not Just a Cutie",
+  "Over the Sky",
+  "Aharen-san wa Hakarenai",
+  "Kakegurui",
+  "Rent-a-Girlfriend",
+  "The Devil is a Part-Timer! Season 2",
+  "In Another World With My Smartphone 2",
+  "The Reincarnation of the Strongest Exorcist in Another World",
+  "Nande Koko ni Sensei ga!?"
 ];
 
 

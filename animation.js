@@ -108,6 +108,7 @@ const animeList = [
     "Seirei Gensouki: Spirit Chronicles",
     "The Rising of the Shield Hero",
     "The Rising of the Shield Hero 2",
+    "The Rising of the Shield Hero Season 3",
     "Am I Actually the Strongest?",
     "Skeleton Knight in Another World",
     "Horimiya: The Missing Pieces",
@@ -155,7 +156,16 @@ const animeList = [
     "Redo of Healer",
     "Skeleton Knight in Another World",
     "Sweet Reincarnation",
-    "Bleach"
+    "Bleach",
+    "TSUKIMICHI -Moonlit Fantasy-",
+    "Trapped in a Dating Sim: The World of Otome Games Is Tough for Mobs",
+    "The 100 Girlfriends Who Really, Really, Really, Really, REALLY Love You",
+    "Zom 100: Bucket List of the Dead",
+    "SPY x FAMILY Season 2",
+    "I'm Giving the Disgraced Noble Lady I Rescued a Crash Course in Naughtiness",
+    "The Demon Sword Master of Excalibur Academy",
+    "Blue Exorcist",
+    "Akashic Records of Bastard Magic Instructor"
   ];
   
   

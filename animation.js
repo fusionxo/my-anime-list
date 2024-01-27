@@ -164,8 +164,7 @@ const animeList = [
     "SPY x FAMILY Season 2",
     "I'm Giving the Disgraced Noble Lady I Rescued a Crash Course in Naughtiness",
     "The Demon Sword Master of Excalibur Academy",
-    "Blue Exorcist",
-    "Akashic Records of Bastard Magic Instructor"
+    "Blue Exorcist"
   ];
   
   
